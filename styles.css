@@ -51,6 +51,7 @@ header {
     height: 50px;
     background: url(images/menu.png) center/cover no-repeat;
     display: none;
+    cursor: url(images/pointer_white.png), pointer;
 }
 
 .header__nav {
@@ -65,7 +66,6 @@ header {
     display: flex;
     align-items: flex-start;
     gap: 24px;
-    max-width: 625px;
     flex-wrap: wrap;
 }
 
@@ -87,6 +87,7 @@ header {
     border: none;
     border-radius: 4px;
     background: #1A3E3E;
+    border: 1px solid rgba(0, 0, 0, 0);
 
     color: #FDFDFD;
     font-size: 16px;
@@ -105,6 +106,7 @@ header {
     border: none;
     border-radius: 4px;
     background: #1A3E3E;
+    border: 1px solid rgba(0, 0, 0, 0);
 
     color: #FDFDFD;
     font-size: 16px;
@@ -904,8 +906,8 @@ footer {
 }
 
 .btn_44:hover, .btn_52:hover {
-    border: 1px solid #F2BE22;
-    box-shadow: 4px 4px 5px 0px rgba(242, 190, 34, 0.50);
+    /* border: 1px solid #F2BE22;
+    box-shadow: 4px 4px 5px 0px rgba(242, 190, 34, 0.50); */
     color: #F2BE22;
     cursor: url(images/pointer_white.png), pointer;
     transition: 0.3s;
@@ -918,7 +920,7 @@ footer {
 .btn_52_light:hover {
     border: 1px solid #18121E;
     background: #FFF;
-    box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.50);
+    /* box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.50); */
     color: #18121E;
     cursor: url(images/pointer_dark.png), pointer;
     transition: 0.3s;
